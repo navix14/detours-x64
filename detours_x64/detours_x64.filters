@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="lib">
+      <UniqueIdentifier>{5ab1686b-ed9a-4b60-b885-d626ce65d348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{1d7fc8a6-0cc1-4103-aff4-a1c842fd237b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SystemInfo">
+      <UniqueIdentifier>{4b434ed4-2a31-4563-97ef-7e0918e29a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HookLib">
+      <UniqueIdentifier>{24be2f99-54d2-41d4-b99a-8b569efdbd43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Winternals">
+      <UniqueIdentifier>{7aa0dd48-7683-45e3-a1ec-02080a55b5d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ZydisUtils">
+      <UniqueIdentifier>{a0a0a812-d976-4cb1-8d94-5c76e3f4996a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TrampolineBuilder">
+      <UniqueIdentifier>{76f71850-7f7c-492d-acf9-01de4591945a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TrampolineBuilder\AnnotatedInstruction">
+      <UniqueIdentifier>{d1e49914-9ae3-402c-855b-ffdcb110bc8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\Zydis\Zydis.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SystemInfo\SystemInfo.h">
+      <Filter>src\SystemInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HookLib\HookLib.h">
+      <Filter>src\HookLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EnumMappings\EnumMappings.h">
+      <Filter>src\Winternals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TrampolineBuilder\TrampolineBuilder.h">
+      <Filter>src\TrampolineBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ZydisUtils\ZydisUtils.h">
+      <Filter>src\ZydisUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TrampolineBuilder\AnnotatedInstruction\AnnotatedInstruction.h">
+      <Filter>src\TrampolineBuilder\AnnotatedInstruction</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\Zydis\Zydis.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SystemInfo\SystemInfo.cpp">
+      <Filter>src\SystemInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnumMappings\EnumMappings.cpp">
+      <Filter>src\Winternals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrampolineBuilder\AnnotatedInstruction\AnnotatedInstruction.cpp">
+      <Filter>src\TrampolineBuilder\AnnotatedInstruction</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrampolineBuilder\TrampolineBuilder.cpp">
+      <Filter>src\TrampolineBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZydisUtils\ZydisUtils.cpp">
+      <Filter>src\ZydisUtils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
