@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="lib\Zydis\Zydis.c">
+      <Filter>lib\Zydis</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZydisUtils\ZydisUtils.cpp">
+      <Filter>src\ZydisUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnumMappings\EnumMappings.cpp">
+      <Filter>src\EnumMappings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SystemInfo\SystemInfo.cpp">
+      <Filter>src\SystemInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrampolineBuilder\AnnotatedInstruction\AnnotatedInstruction.cpp">
+      <Filter>src\TrampolineBuilder\AnnotatedInstruction</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrampolineBuilder\TrampolineBuilder.cpp">
+      <Filter>src\TrampolineBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\HookLib\HookLib.h">
+      <Filter>src\HookLib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Zydis\Zydis.h">
+      <Filter>lib\Zydis</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ZydisUtils\ZydisUtils.h">
+      <Filter>src\ZydisUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EnumMappings\EnumMappings.h">
+      <Filter>src\EnumMappings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SystemInfo\SystemInfo.h">
+      <Filter>src\SystemInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TrampolineBuilder\AnnotatedInstruction\AnnotatedInstruction.h">
+      <Filter>src\TrampolineBuilder\AnnotatedInstruction</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TrampolineBuilder\TrampolineBuilder.h">
+      <Filter>src\TrampolineBuilder</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{78d7971d-16c3-477c-98db-824a46597b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{6a43f033-a8d5-4d39-a9b5-4e7456aaa280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\Zydis">
+      <UniqueIdentifier>{58d6702e-8c6f-43c7-8306-d60079c9dd0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TrampolineBuilder">
+      <UniqueIdentifier>{a64f21b5-9b63-49e2-92d7-94d10f35eef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TrampolineBuilder\AnnotatedInstruction">
+      <UniqueIdentifier>{cfa3de47-13c0-4fa5-9cf0-a956e1b3f7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SystemInfo">
+      <UniqueIdentifier>{77ae745e-20e1-401d-a8da-6e027a16fde2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ZydisUtils">
+      <UniqueIdentifier>{6fe23600-5671-4033-9e4e-bfc7cf6be50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\EnumMappings">
+      <UniqueIdentifier>{c5037db4-bfea-4784-9cfd-699e7f2e9a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HookLib">
+      <UniqueIdentifier>{7ea59805-d66b-4a50-8938-5f0df43df238}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
